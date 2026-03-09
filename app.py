@@ -16,7 +16,7 @@ def load_model():
 
 model, scaler, feature_columns = load_model()
 
-st.title("🦋 Larval Population Monitoring Dashboard")
+st.title("🐛 Larval Population Monitoring Dashboard")
 st.write("Upload a CSV or Excel file to analyze larval population and forecast the next 7 days.")
 
 uploaded_file = st.file_uploader("Upload population dataset", type=["csv", "xlsx"])
